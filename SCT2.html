@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch with Laps</title>
+  <link rel="stylesheet" href="SCT2.css">
+  <style> 
+  </style>
+</head>
+<body>
+
+<div class="stopwatch">
+  <div id="display">00:00:00.000</div>
+  <div class="buttons">
+    <button onclick="start()" id="startBtn">Start</button>
+    <button onclick="stop()" id="stopBtn" disabled>Stop</button>
+    <button onclick="lap()" id="lapBtn" disabled>Lap</button>
+    <button onclick="reset()">Reset</button>
+  </div>
+  <div class="laps" id="laps"></div>
+</div>
+
+<script src="SCT2.js"></script>
+</script>
+
+</body>
+</html>
